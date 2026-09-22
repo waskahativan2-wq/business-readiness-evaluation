@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<readinessChecklist
+    id="governance-compliance-readiness"
+    repository="waskahativan2-wq/business-readiness-evaluation"
+    created="2026-09-22"
+    status="draft">
+  <metadata>
+    <title>Governance, Compliance, Safety, Privacy, and Communication Readiness Checklist</title>
+    <owner>Project maintainers</owner>
+    <reviewCadence>Before each release and at least quarterly</reviewCadence>
+    <notice>This document is a planning aid and is not legal, medical, psychological, employment, or security advice.</notice>
+  </metadata>
+
+  <scope>
+    <item id="1">Governance and accountability</item>
+    <item id="2">Legal and regulatory review</item>
+    <item id="3">Safety and health communications</item>
+    <item id="4">Privacy and psychological-assessment safeguards</item>
+    <item id="5">Security and access control</item>
+    <item id="6">Communication with elders and communities</item>
+    <item id="7">Plain-language interpretation and translation</item>
+    <item id="8">AI and language-model evaluation</item>
+    <item id="9">Documentation and release approval</item>
+    <item id="10">Resume and job-profile readiness</item>
+  </scope>
+
+  <identification>
+    <field name="projectOrServiceName" value="" />
+    <field name="responsibleOrganization" value="" />
+    <field name="decisionOwner" value="" />
+    <field name="safetyContact" value="" />
+    <field name="privacyContact" value="" />
+    <field name="securityContact" value="" />
+    <field name="legalReviewer" value="" />
+    <field name="targetUsersAndCommunities" value="" />
+    <field name="jurisdictions" value="" />
+    <field name="systemsAndDataStores" value="" />
+    <field name="releaseIdentifier" value="" />
+    <field name="reviewTimestamp" value="" />
+    <field name="approvalExpirationDate" value="" />
+  </identification>
+
+  <governance>
+    <check id="GOV-001" status="未確認">Define purpose, intended users, and foreseeable misuse.</check>
+    <check id="GOV-002" status="未確認">Assign an accountable owner for each risk area.</check>
+    <check id="GOV-003" status="未確認">Maintain an issues log with owner, severity, due date, and resolution.</check>
+    <check id="GOV-004" status="未確認">Document material decisions, assumptions, evidence, and dissenting views.</check>
+    <check id="GOV-005" status="未確認">Provide escalation, complaint, correction, appeal, and accessibility processes.</check>
+  </governance>
+
+  <legal>
+    <check id="LEG-001" status="未確認">Identify applicable laws and regulations in each operating jurisdiction.</check>
+    <check id="LEG-002" status="未確認">Verify that public, health, employment, and marketing claims are accurate and supportable.</check>
+    <check id="LEG-003" status="未確認">Review consent, retention, deletion, disclosure, licensing, and vendor obligations.</check>
+    <check id="LEG-004" status="未確認">Obtain jurisdiction-specific legal review for high-risk activities.</check>
+  </legal>
+
+  <safety>
+    <check id="SAFE-001" status="未確認">Provide clear warnings for foreseeable physical, emotional, cognitive, or social risks.</check>
+    <check id="SAFE-002" status="未確認">Provide an accessible stop, exit, and help-request process.</check>
+    <check id="SAFE-003" status="未確認">Do not present automated output as a clinical diagnosis or emergency service.</check>
+    <check id="SAFE-004" status="未確認">Document limitations, uncertainty, incident reporting, triage, and rollback procedures.</check>
+    <check id="SAFE-005" status="未確認">Review age suitability and the needs of elders, minors, and people with disabilities.</check>
+  </safety>
+
+  <mixedRealityAndPsychologicalAssessment>
+    <check id="MR-001" status="未確認">Use voluntary participation and informed consent in plain language.</check>
+    <check id="MR-002" status="未確認">State whether each instrument is validated, experimental, educational, or entertainment-only.</check>
+    <check id="MR-003" status="未確認">Do not infer a diagnosis or crisis state from a single interaction.</check>
+    <check id="MR-004" status="未確認">Minimize biometric, behavioral, voice, eye-tracking, location, and mood-related data.</check>
+    <check id="MR-005" status="未確認">Provide breaks, grounding instructions, and an immediate exit option.</check>
+    <check id="MR-006" status="未確認">Obtain qualified clinical, research, or ethics review when appropriate.</check>
+  </mixedRealityAndPsychologicalAssessment>
+
+  <privacy>
+    <check id="PRIV-001" status="未確認">Maintain a data inventory with purpose, legal basis, retention, access, and deletion method.</check>
+    <check id="PRIV-002" status="未確認">Collect only data necessary for a stated purpose.</check>
+    <check id="PRIV-003" status="未確認">Use privacy-by-default settings and minimize logging.</check>
+    <check id="PRIV-004" status="未確認">Encrypt sensitive data in transit and at rest.</check>
+    <check id="PRIV-005" status="未確認">Restrict access by role and review access regularly.</check>
+    <check id="PRIV-006" status="未確認">Do not publish private addresses, credentials, tokens, or unnecessary unique identifiers.</check>
+    <check id="PRIV-007" status="未確認">Maintain procedures for access, correction, deletion, and breach response.</check>
+  </privacy>
+
+  <security>
+    <check id="SEC-001" status="未確認">Use unique accounts and prohibit shared credentials.</check>
+    <check id="SEC-002" status="未確認">Use strong passwords, rate limiting, and protection against credential stuffing.</check>
+    <check id="SEC-003" status="未確認">Offer multi-factor authentication for administrators and sensitive accounts.</check>
+    <check id="SEC-004" status="未確認">Apply least privilege and separate administrative accounts.</check>
+    <check id="SEC-005" status="未確認">Use secure sessions, logout, expiration, revocation, and authorization checks.</check>
+    <check id="SEC-006" status="未確認">Keep secrets outside source code and rotate exposed credentials.</check>
+    <check id="SEC-007" status="未確認">Maintain backups, restore tests, audit logs, patching, and incident response.</check>
+  </security>
+
+  <communityCommunication>
+    <check id="COM-001" status="未確認">Use respectful, non-paternalistic, plain-language communication.</check>
+    <check id="COM-002" status="未確認">Offer accessible formats such as large print, high contrast, audio, translation, and human assistance when appropriate.</check>
+    <check id="COM-003" status="未確認">Explain what information is collected, why it is collected, and who can access it.</check>
+    <check id="COM-004" status="未確認">Allow time for questions and informed consent.</check>
+    <check id="COM-005" status="未確認">Provide a non-digital or human contact route where practical.</check>
+  </communityCommunication>
+
+  <interpretationAndTranslation>
+    <distinction name="observation">What was directly seen, heard, measured, or recorded.</distinction>
+    <distinction name="interpretation">The meaning assigned to an observation.</distinction>
+    <distinction name="inference">A conclusion drawn from observations.</distinction>
+    <distinction name="claim">An assertion made publicly or operationally.</distinction>
+    <distinction name="evidence">Information supporting or limiting a claim.</distinction>
+    <distinction name="uncertainty">What remains unknown or could be misunderstood.</distinction>
+    <check id="LANG-001" status="未確認">Preserve meaning, cultural context, idioms, honorifics, and technical terms.</check>
+    <check id="LANG-002" status="未確認">Use qualified human review for high-stakes translations.</check>
+    <check id="LANG-003" status="未確認">Mark machine-generated or machine-assisted translations.</check>
+  </interpretationAndTranslation>
+
+  <aiAndLanguageModels>
+    <check id="AI-001" status="未確認">Document purpose, limits, data sources, model version, and human oversight.</check>
+    <check id="AI-002" status="未確認">Test for hallucinations, bias, privacy leakage, prompt injection, and unsafe recommendations.</check>
+    <check id="AI-003" status="未確認">Keep humans responsible for consequential decisions.</check>
+    <check id="AI-004" status="未確認">Define escalation rules for emergencies, threats, abuse, and self-harm content.</check>
+    <check id="AI-005" status="未確認">Use bounded, monitored learning processes rather than unrestricted self-improvement in production.</check>
+    <check id="AI-006" status="未確認">Summarize research with study type, population, limitations, date, and replication status.</check>
+  </aiAndLanguageModels>
+
+  <quantitativeAndScientificReview>
+    <check id="SCI-001" status="未確認">Define variables, units, assumptions, and comparison baselines.</check>
+    <check id="SCI-002" status="未確認">Distinguish correlation from causation.</check>
+    <check id="SCI-003" status="未確認">Report uncertainty, sample size, missing data, and material limitations.</check>
+    <check id="SCI-004" status="未確認">Independently reproduce calculations.</check>
+    <check id="SCI-005" status="未確認">For each index or score, document definition, scale, weighting, validation, update date, and interpretation.</check>
+  </quantitativeAndScientificReview>
+
+  <resumeAndIndeedReadiness>
+    <check id="RES-001" status="未確認">Describe responsibilities and outcomes truthfully and without exaggeration.</check>
+    <check id="RES-002" status="未確認">Use measurable results only when they can be substantiated.</check>
+    <check id="RES-003" status="未確認">Remove confidential data, private addresses, credentials, and protected information.</check>
+    <check id="RES-004" status="未確認">Check dates, titles, links, spelling, and contact details.</check>
+    <check id="RES-005" status="未確認">Obtain permission before naming clients, communities, or collaborators.</check>
+  </resumeAndIndeedReadiness>
+
+  <releaseReview>
+    <reviewItem id="1" name="Purpose and scope approved" owner="" status="未確認" evidence="" reviewedAt="" />
+    <reviewItem id="2" name="Legal review completed" owner="" status="未確認" evidence="" reviewedAt="" />
+    <reviewItem id="3" name="Privacy review completed" owner="" status="未確認" evidence="" reviewedAt="" />
+    <reviewItem id="4" name="Safety review completed" owner="" status="未確認" evidence="" reviewedAt="" />
+    <reviewItem id="5" name="Security testing completed" owner="" status="未確認" evidence="" reviewedAt="" />
+    <reviewItem id="6" name="Accessibility and community review completed" owner="" status="未確認" evidence="" reviewedAt="" />
+    <reviewItem id="7" name="Translation review completed" owner="" status="未確認" evidence="" reviewedAt="" />
+    <reviewItem id="8" name="AI and model evaluation completed" owner="" status="未確認" evidence="" reviewedAt="" />
+    <reviewItem id="9" name="Incident and rollback plan tested" owner="" status="未確認" evidence="" reviewedAt="" />
+    <reviewItem id="10" name="Final approval recorded" owner="" status="未確認" evidence="" reviewedAt="" />
+  </releaseReview>
+
+  <approval>
+    <approver name="" role="" timestamp="" />
+    <statement>Approval records a reasoned decision based on available information. It does not guarantee legal compliance, safety, security, or positive outcomes.</statement>
+  </approval>
+</readinessChecklist>
